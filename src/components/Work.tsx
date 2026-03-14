@@ -2,11 +2,14 @@ import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
-
-const projects = [
- 
-  
-];
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  // Add ALL properties that your projects array uses
+  // Look at your projects data to see what fields you need
+}
+const projects: Project[] = [ ];
 
 const Work = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
