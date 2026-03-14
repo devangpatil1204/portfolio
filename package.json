@@ -1,4 +1,10 @@
 {
+  
+  "name": "portfolio",
+  "homepage": "https://devangpatil1204.github.io/portfolio/",
+  "version": "0.1.0",
+  // ... rest of your package.json
+
   "name": "rajesh-portfolio",
   "private": true,
   "version": "0.0.0",
