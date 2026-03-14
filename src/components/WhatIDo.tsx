@@ -103,6 +103,8 @@ const WhatIDo = () => {
                 <div className="what-tags">Material UI</div>
                 <div className="what-tags">HTML5</div>
                 <div className="what-tags">CSS3</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Langchain</div>
               </div>
               <div className="what-arrow"></div>
             </div>
